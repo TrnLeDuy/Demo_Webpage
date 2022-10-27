@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="initial-scale=1">
+   <title>My Website</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <!--Navbar-Building!-->
+      <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Trần Lê Duy</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#" class="color-me">Home</a></li>
+              <li><a href="#" class="color-me">CV</a></li>
+              <li><a href="#" class="color-me">Portfolio</a></li>
+              <!-- here is the dropdown menu -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle color-me" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Email</a></li>
+                  <li><a href="#">Skype</a></li>
+                </ul>
+              </li>
+              <!-- the end of the dropdown menu -->
+            </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Fill in keyword">
+              </div>
+              <button type="submit" class="btn btn-default">Search</button>
+            </form>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+      <!--Carousel-Building!-->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <!--Slide 1-->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/hololive en.png" alt="HighNoon" style="width: 100%;">
+            <div class="carousel-caption d-none d-md-block container">
+              <h3>WELCOME <br> TO MY <br> WEBSITE</h3>
+              <p>This website is my own project and I hope you enjoy with it.<br> All information about my favorite character is below!</p>
+              <button type="button" class="btn btn-outline-info"><a id="btn-info" href="#border-detail">Start Reading</a></button>
+            </div>
+          </div>
+          <!--Slide 2-->
+          <div class="item">
+            <img src="images/b130c6a08a452f1726ef246f17c17f05.png" alt="SunShine" style="width:100%;">
+          </div>
+          <!--Slide 3-->
+          <div class="item">
+            <img src="images/Hololive.full.3114385.jpg" alt="Nature" style="width:100%;">
+          </div>
+        </div>
+        <!--Slide changing button-->
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+     </div>
+     <!--Contain-Building-Area-->
+     <div class="container" style="margin-top:30px">
+      <div class="row">
+        <!--Left Contain-->
+        <div class="col-sm-4" id="border-detail">
+          <center><h2 id="name">Gawr Gura</h2></center>
+          <center><p class="avatar"><img id="avatar" src="images/gura avatar.jpg" alt="gura face"></p></center>
+          <p><strong>Gawr Gura</strong> is an English Virtual Youtuber associated with <a href="https://virtualyoutuber.fandom.com/wiki/Hololive" target="_blank">Hololive Production</a>, debuting as part of its English (EN) branch first generation of VTubers alongside <a href="https://virtualyoutuber.fandom.com/wiki/Ninomae_Ina%27nis" target="_blank">Ninomae Ina'nis</a>, <a href="https://virtualyoutuber.fandom.com/wiki/Takanashi_Kiara" target="_blank">Takanashi Kiara</a>, <a href="https://virtualyoutuber.fandom.com/wiki/Watson_Amelia" target="_blank">Watson Amelia</a> and <a href="https://virtualyoutuber.fandom.com/wiki/Mori_Calliope" target="_blank">Mori Calliope</a>.</p>
+          
+          <h3>Basic Detail</h3>
+          <p>
+            <div><b>Original Name: </b> がうる・ぐら <em>(Gawr Gura)</em></div>
+            <div><b>Debut Date: </b> Youtube: 2020/09/13</div>
+            <div><b>Character Designer: </b></div> 
+            <ul style="margin-bottom: 0%;">
+              <li><em><b>Illustration:</b></em> Amashiro Natsuki</li>
+              <li><em><b>Modelling:</b></em> Shin Umiushi</li>
+            </ul>
+            <div><b>Affilliation: </b>hololive English</div>
+            <div><b>Channel: </b><a href="https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g">Gawr Gura Ch.hololive-EN</a> <em>(Youtube Channel)</em></div>
+            <div><b>Gender: </b>Female</div>
+            <div><b>Birtday: </b>20<sup>th</sup> June</div>
+            <div><b>Zodiac Sign: </b>Gemini</div>
+          </p>
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#intro">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prof">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#past">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quotes">Quotes</a>
+            </li>
+          </ul>
+          <hr class="d-sm-none">
+        </div>
+        <div class="col-sm-8">
+          <h2 id="intro">INTRODUCTION VIDEO</h2>
+          <p>Stream live on September 13<sup>th</sup>, 2020 with 4,527,151 views up to now.</p>
+          <div class="video"><iframe src="https://www.youtube.com/embed/dBK0gKW61NU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <br>
+          <h2 id="prof">PROFILE</h2>
+          <p>Gura is a descendant of the Lost City of Atlantis, who swam to Earth while saying "It's so boring down there LOLOLOL!" She bought her clothes (and her shark hat) in the human world and she really loves them. In her spare time, she enjoys talking to marine life.</p>
+          <img id="LCOA" src="images/__gawr_gura_hololive_and_1_more_drawn_by_dolphenry__5946a96b0b59a5896c4bd62480e110c8.png" alt="LCOA">
+          <h2 id="past">HISTORY</h2>
+          <p>   
+            - Gura's debut stream was scheduled for 12<sup>th</sup> September 2020 at 2PM PDT, although she was 12 minutes and 32 seconds late to her own debut stream due to a technical issue. She was the fourth of the five original members of hololive English to debut on the same day. Over 45,000 viewers tuned into watch the event, in which she wowed viewers with a rendition of Tatsuro Yamashita's 1980 city pop single <em>Ride on Time.</em><br><br>
+            <img id="logo" src="images/Hololive_ENGLISH_logo.png" alt="holoen_logo"><br>
+            - Gura quickly rose in popularity, becoming the fastest-growing VTuber ever, gain 100,000 new subscribers every two to five days. On 20<sup>th</sup> October 2020, just after 37 days she became the #1 most subscribed hololive VTuber on Youtube. On 30<sup>th</sup> November 2020, Gura reached 1,500,000 Youtube subscribers. Up to now, she has got 3.53M subscribers and she also had 1 super successful song cover with Mori Calliope. 
+          </p>
+          <h2 id="quotes">QUOTES</h2>
+          <img id="A-gura" src="images/maxresdefault.jpg" alt="A!">
+          <ul style="border-bottom: solid 2px black;">
+            <li>"A"</li>
+            <li>"SHAAAAAAAAAAAAAARK!"</li>
+            <li>"See, sometimes, in lif, you try and hit life with a "hooha!", but then life decides to hit you with a "hooha!". You know what you do, in this predicament? When life hoochas you? You go AGAIN!"</li>
+            <li>"Don't worry about it. Don't worry about it. You know what? Not every adventure comes to a happy ending. Sometimes you just gotta retrace, go back, and start over."</li>
+            <li>"It's offically Christmas!"</li>
+            <li>"I don't know, maybe it's not great progress compared to other people, but I'm happy with my progress. And you know what? Quite frankly, that's all that matters. If you spend too much time worrying about, you know, other people's progress and how it matches up to yours then... I don't know, you might forget what really matters, and that's <em>your</em> progress, you know?"</li>
+            <li>"You can't be mad at me... <em>I'm cute!</em> "</li>
+            <iframe id="cute" width="1309" height="496" src="https://www.youtube.com/embed/JVux-ohlDtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <li>"Bodka. Vodka. Spasibo? Boodka. Vodka. VAAdka. Bodka? Vohdka. Boodka, bood- *clears throat* bAAH-dke. Uh, hmm-hm-hm-ha. *inhales* nyAaAaAAeeeyoouh eugh agh *exhales* nice. Ni- Uup! Mic on. Hiii!"</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright 2021 &copy; Virtual Youtube Wiki <br>
+      Email: 20dh3658941@st.huflit.edu.vn - Tel: 0987621654</p>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
